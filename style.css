@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  .nav-list {
+    list-style: none;
+  }
+  
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+   
+
+.nav-link {
+    transition: 0.3s;
+    color: rgb(32, 28, 28);
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: #00B3FF;
+  }
+
+ img {
+     width: 13%;
+     height: 13%;
+    border-radius: 100px; 
+    border: 3px solid green; 
+    box-shadow: 0 0 6px #666;
+ }  
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header {
+    border: 1px solid red;
+  }
+  .main {
+    border: 1px solid green;
+  }
+  .footer {
+    border: 1px solid blue;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+   .round {
+   border-radius: 100px; /* Радиус скругления */
+   border: 3px solid green; /* Параметры рамки */
+   box-shadow: 0 0 7px #666; /* Параметры тени */
+  }
+
+  .profile {
+    height: h1;
+  }
