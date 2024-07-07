@@ -43,13 +43,24 @@ a{
     color: #00B3FF;
   }
 
- img {
+ .ava {
      width: 13%;
      height: 13%;
     border-radius: 100px; 
     border: 3px solid green; 
     box-shadow: 0 0 6px #666;
- }  
+ }
+
+    .logo {
+      width: 25%;
+      height: 25%;
+        
+    }
+  .git-logo{
+    width: 10%;
+    height: 10%;
+
+  }
 
   .body {
     display: flex;
@@ -66,13 +77,24 @@ a{
     margin: 0 auto;
   }
   .header {
-    border: 1px solid red;
+   
   }
   .main {
-    border: 1px solid green;
+  
   }
   .footer {
-    border: 1px solid blue;
+  margin-top: 20px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-around;
+ 
+  }
+
+  .footer-date {
+     font-size: large ;
+     text-shadow: #666;
+     font-weight: bold;
   }
 
   .nav-list {
