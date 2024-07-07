@@ -6,7 +6,7 @@ body {
 
   html {
     scroll-behavior: smooth;
-  }
+      }
 
   
   .nav-list {
@@ -44,23 +44,22 @@ a{
   }
 
  .ava {
-     width: 13%;
-     height: 13%;
+    width: 13%;
+    height: 13%;
     border-radius: 100px; 
     border: 3px solid green; 
     box-shadow: 0 0 6px #666;
- }
+      }
 
-    .logo {
+  .logo {
       width: 25%;
       height: 25%;
-        
-    }
+            }
+
   .git-logo{
     width: 10%;
     height: 10%;
-
-  }
+           }
 
   .body {
     display: flex;
@@ -69,27 +68,30 @@ a{
     min-height: 100vh;
     margin: 0; 
     padding: 0;
-}
+         }
 
-
+     
 .container {
     max-width: 1440px;
     margin: 0 auto;
-  }
-  .header {
-   
+                }
+
+ .header {
+  background-color: #ccc4c4;
+  border: 1px solid #d5d9df;
+  
   }
   .main {
+    background-color: #bce1d7;
+     
   
   }
   .footer {
-  margin-top: 20px;
-  display: flex;
-  padding: 0 20px;
-  align-items: center;
-  justify-content: space-around;
- 
-  }
+    background-color: #ccc4c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+           }
 
   .footer-date {
      font-size: large ;
@@ -101,14 +103,24 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-
-   .round {
-   border-radius: 100px; /* Радиус скругления */
-   border: 3px solid green; /* Параметры рамки */
-   box-shadow: 0 0 7px #666; /* Параметры тени */
+    justify-content: center;
   }
 
   .profile {
     height: h1;
+  }
+
+  li {
+    list-style-type: none ;
+  }
+
+ .name {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+  
+.section-code {
+  font-size: large;
   }
